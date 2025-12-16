@@ -1,7 +1,7 @@
 def player(prev_play, opponent_history=[]):
     # --- RESET STATE ON NEW GAME ---
     if prev_play == "":
-        opponent_history.clear()  # <--- ADD THIS LINE to reset the default list
+        opponent_history.clear()  # <--- ADDED THIS LINE to reset the default list
         player.my_history = []
         player.play_order = {
             "RR": 0, "RP": 0, "RS": 0,
